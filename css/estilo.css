@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    font-family: 'Bai Jamjuree';
+    justify-content: center;
+    background-color: #efefef;
+   
+}
+
+
+.container{
+    min-width: 500px;
+    padding: 30px 60px;
+   
+    width: 40%;
+
+}
+.aviso{
+    font-size: 12px;
+    text-align: center;
+}
+p{
+    color: #a9a9a9;
+}
+.caixa{
+    background: #a9a9a9;
+    padding: 30px 10px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin-top: 2em;
+}
+
+.campo{
+    flex: 3;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.campo:focus{
+    outline: none;
+    border-color: #ff3b3f;
+}
+
+.caixa-botao{
+    flex: 1;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: #ff3b3f;
+    color: white;
+    padding: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.tarefas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a9a9a9;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);;
+    list-style-type: none;
+}
+.delete{
+    outline: none;
+    border: none;
+    background: #a9a9a9;
+    padding: 12px;
+    margin-left: -5px;
+    cursor: pointer;
+   
+}
+
+
+
+.error{
+    border: 2px solid red !important;
+}
